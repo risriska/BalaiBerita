@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:background="#E0E0E0">
+    
+    <ImageView 
+	android:layout_height="wrap_content" 
+	android:id="@+id/balai"
+		android:background="@drawable/balai" 
+		android:layout_width="wrap_content"/>
+		
+	<ImageView 
+	android:layout_height="wrap_content" 
+	android:id="@+id/alamat"
+		android:background="@drawable/alamat" 
+		android:layout_width="wrap_content"
+		android:layout_x="0dip" 
+		android:layout_y="385dip"/>	
+		
+	<ImageButton 
+	android:background="@drawable/open"
+	android:layout_height="wrap_content" 
+		android:id="@+id/open" 
+		android:layout_width="wrap_content"
+		android:layout_x="120dip" 
+		android:layout_y="130dip"></ImageButton>
+		
+	<ImageButton 
+	android:background="@drawable/about"
+	android:layout_height="wrap_content" 
+		android:id="@+id/about" 
+		android:layout_width="wrap_content"
+		android:layout_x="117dip" 
+		android:layout_y="190dip"></ImageButton>
+		
+	<ImageButton 
+	android:background="@drawable/exit"
+	android:layout_height="wrap_content" 
+		android:id="@+id/exit" 
+		android:layout_width="wrap_content"
+		android:layout_x="120dip" 
+		android:layout_y="245dip"></ImageButton>			
+    
+</AbsoluteLayout>
